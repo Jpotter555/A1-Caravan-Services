@@ -62,7 +62,7 @@ export const Contact = () => {
                 aria-label="Send us an email"
               >
                 <span className="border-b border-dashed border-gray-400 group-hover:border-sky-600">
-                  info@a1caravanrepairs.com
+                a1customcaravanrepairs@gmail.com
                 </span>
               </a>
             </div>
