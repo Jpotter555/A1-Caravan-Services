@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/A1-Caravan-Services/static/css/main.13de7720.css",
-    "main.js": "/A1-Caravan-Services/static/js/main.d6dd91f0.js",
+    "main.css": "/A1-Caravan-Services/static/css/main.f8ad50b0.css",
+    "main.js": "/A1-Caravan-Services/static/js/main.11e8da11.js",
     "static/media/Panel-Replacements.webp": "/A1-Caravan-Services/static/media/Panel-Replacements.10068d26eb92ae1c01e2.webp",
     "static/media/Solar.webp": "/A1-Caravan-Services/static/media/Solar.58e490a8274548f5cd8d.webp",
     "static/media/Chassis.webp": "/A1-Caravan-Services/static/media/Chassis.26c0e4dd192a773b18d8.webp",
@@ -12,11 +12,11 @@
     "static/media/Refrigeration.webp": "/A1-Caravan-Services/static/media/Refrigeration.65301c7ae8c14bedadc4.webp",
     "static/media/Resealing.webp": "/A1-Caravan-Services/static/media/Resealing.e9ddc2534ce90a0bc03b.webp",
     "index.html": "/A1-Caravan-Services/index.html",
-    "main.13de7720.css.map": "/A1-Caravan-Services/static/css/main.13de7720.css.map",
-    "main.d6dd91f0.js.map": "/A1-Caravan-Services/static/js/main.d6dd91f0.js.map"
+    "main.f8ad50b0.css.map": "/A1-Caravan-Services/static/css/main.f8ad50b0.css.map",
+    "main.11e8da11.js.map": "/A1-Caravan-Services/static/js/main.11e8da11.js.map"
   },
   "entrypoints": [
-    "static/css/main.13de7720.css",
-    "static/js/main.d6dd91f0.js"
+    "static/css/main.f8ad50b0.css",
+    "static/js/main.11e8da11.js"
   ]
 }
