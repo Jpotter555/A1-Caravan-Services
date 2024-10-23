@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/A1-Caravan-Services/static/css/main.bb5cdac5.css",
+    "main.js": "/A1-Caravan-Services/static/js/main.e852e857.js",
+    "static/media/Panel-Replacements.webp": "/A1-Caravan-Services/static/media/Panel-Replacements.10068d26eb92ae1c01e2.webp",
+    "static/media/Solar.webp": "/A1-Caravan-Services/static/media/Solar.58e490a8274548f5cd8d.webp",
+    "static/media/Chassis.webp": "/A1-Caravan-Services/static/media/Chassis.26c0e4dd192a773b18d8.webp",
+    "static/media/services.webp": "/A1-Caravan-Services/static/media/services.58f9764872bac6c93743.webp",
+    "static/media/Awnings.webp": "/A1-Caravan-Services/static/media/Awnings.78d7e5f9ab35e8b42111.webp",
+    "static/media/Plumbing.webp": "/A1-Caravan-Services/static/media/Plumbing.981c242a2b88120824eb.webp",
+    "static/media/Insurance-Work.webp": "/A1-Caravan-Services/static/media/Insurance-Work.682ad868902f83711ef8.webp",
+    "static/media/Refrigeration.webp": "/A1-Caravan-Services/static/media/Refrigeration.65301c7ae8c14bedadc4.webp",
+    "static/media/Resealing.webp": "/A1-Caravan-Services/static/media/Resealing.e9ddc2534ce90a0bc03b.webp",
+    "index.html": "/A1-Caravan-Services/index.html",
+    "main.bb5cdac5.css.map": "/A1-Caravan-Services/static/css/main.bb5cdac5.css.map",
+    "main.e852e857.js.map": "/A1-Caravan-Services/static/js/main.e852e857.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb5cdac5.css",
+    "static/js/main.e852e857.js"
+  ]
+}
