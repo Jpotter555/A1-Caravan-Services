@@ -21,21 +21,21 @@ export const Contact = () => (
                             <Phone className="text-sky-600 mr-4" />
                             <div>
                                 <h3 className="font-semibold">Phone</h3>
-                                <p className="text-gray-600">0123 456 789</p>
+                                <p className="text-gray-600">42 566 888</p>
                             </div>
                         </div>
                         <div className="flex items-center p-4 bg-sky-50 rounded-lg">
                             <Mail className="text-sky-600 mr-4" />
                             <div>
                                 <h3 className="font-semibold">Email</h3>
-                                <p className="text-gray-600">info@a1caravanrepairs.com</p>
+                                <p className="text-gray-600">a1customcaravanrepairs@gmail.com</p>
                             </div>
                         </div>
                         <div className="flex items-center p-4 bg-sky-50 rounded-lg">
                             <MapPin className="text-sky-600 mr-4" />
                             <div>
-                                <h3 className="font-semibold">Location</h3>
-                                <p className="text-gray-600">123 Workshop Street, Caravan City</p>
+                                <h3 className="font-semibold">Address</h3>
+                                <p className="text-gray-600">141a Industrial Road, Oak Flats, New South Wales, 2529</p>
                             </div>
                         </div>
                     </div>
