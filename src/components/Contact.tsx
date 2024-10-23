@@ -1,7 +1,12 @@
 import React from 'react';
 import { Phone, Mail, MapPin, Clock, Smartphone } from 'lucide-react';
 
-export const Contact = () => (
+export const Contact = () => {
+
+    const address = encodeURIComponent("141A Industrial Road, Oak Flats, New South Wales, 2529");
+  const mapsUrl = `https://maps.google.com/maps?q=${address}`;
+
+  return (
     <div id="contact" className="relative bg-gray-50 py-16">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 h-full transform -z-10"></div>
         <div className="max-w-6xl mx-auto px-4">
@@ -47,21 +52,55 @@ export const Contact = () => (
 
                     {/* Email */}
                     <div className="p-6 bg-sky-50 rounded-lg hover:shadow-md transition-shadow">
-                        <div className="flex items-center mb-4">
-                            <Mail className="text-sky-600 mr-3" size={24} />
-                            <h3 className="font-semibold text-lg">Email</h3>
-                        </div>
-                        <p className="text-gray-600">a1customcaravanrepairs@gmail.com</p>
-                    </div>
+              <div className="flex items-center mb-4">
+                <Mail className="text-sky-600 mr-3" size={24} />
+                <h3 className="font-semibold text-lg">Email</h3>
+              </div>
+              <a 
+                href="mailto:info@a1caravanrepairs.com" 
+                className="text-gray-600 hover:text-sky-600 transition-colors group"
+                aria-label="Send us an email"
+              >
+                <span className="border-b border-dashed border-gray-400 group-hover:border-sky-600">
+                  info@a1caravanrepairs.com
+                </span>
+              </a>
+            </div>
 
-                    {/* Location */}
-                    <div className="p-6 bg-sky-50 rounded-lg hover:shadow-md transition-shadow">
-                        <div className="flex items-center mb-4">
-                            <MapPin className="text-sky-600 mr-3" size={24} />
-                            <h3 className="font-semibold text-lg">Location</h3>
-                        </div>
-                        <p className="text-gray-600">141a Industrial Road, Oak Flats, New South Wales, 2529</p>
-                    </div>
+            {/* Location with clickable address */}
+            <div className="p-6 bg-sky-50 rounded-lg hover:shadow-md transition-shadow">
+              <div className="flex items-center mb-4">
+                <MapPin className="text-sky-600 mr-3" size={24} />
+                <h3 className="font-semibold text-lg">Location</h3>
+              </div>
+              <div className="space-y-2">
+                <a 
+                  href={mapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-sky-600 transition-colors block group"
+                  aria-label="Open our location in Maps"
+                >
+                  <span className="border-b border-dashed border-gray-400 group-hover:border-sky-600">
+                    141A Industrial Road
+                  </span>
+                </a>
+                <a 
+                  href={mapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-sky-600 transition-colors block group"
+                  aria-label="Open our location in Maps"
+                >
+                  <span className="border-b border-dashed border-gray-400 group-hover:border-sky-600">
+                    Oak Flats, New South Wales, 2529
+                  </span>
+                </a>
+                <div className="text-sm text-sky-600 mt-2">
+                  Tap address to open in Maps
+                </div>
+              </div>
+            </div>
 
                     {/* Business Hours */}
                     <div className="p-6 bg-sky-50 rounded-lg hover:shadow-md transition-shadow md:col-span-2">
@@ -70,11 +109,11 @@ export const Contact = () => (
                             <h3 className="font-semibold text-lg">Business Hours</h3>
                         </div>
                         <div className="grid grid-cols-2 gap-2 text-gray-600">
-                            <div>Monday - Friday</div>
-                            <div>8:00 AM - 5:00 PM</div>
-                            <div>Saturday</div>
-                            <div>By Appointment</div>
-                            <div>Sunday</div>
+                            <div>Monday - Thursday</div>
+                            <div>7:30 AM - 4:00 PM</div>
+                            <div>Friday</div>
+                            <div>7:30 AM - 2:00 PM</div>
+                            <div>Saturday-Sunday</div>
                             <div>Closed</div>
                         </div>
                     </div>
@@ -104,7 +143,8 @@ export const Contact = () => (
             </div>
         </div>
     </div>
+  
 );
-
+}
 export default Contact;
 
