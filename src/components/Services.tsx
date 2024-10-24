@@ -1,5 +1,3 @@
-import React from 'react';
-import { ChevronRight } from 'lucide-react';
 import serviceImage from '../images/services/services.webp';
 import panelReplacement from '../images/services/Panel-Replacements.webp';
 import awning from '../images/services/Awnings.webp';

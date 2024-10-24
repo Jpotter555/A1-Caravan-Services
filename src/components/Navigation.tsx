@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Menu } from 'lucide-react';
 import logo from '../images/services/site-logo.webp';
 
@@ -21,7 +21,7 @@ export const Navigation = () => {
             <h1 className="text-2xl font-bold">A1 Custom Caravan Repairs</h1>
           </div>
           <div className="flex-shrink-0">
-            <img src={logo} height="50px" width="50px" />
+            <img src={logo} height="50px" width="50px"  alt='caravan logo'/>
           </div>
           <div className="md:hidden">
             <button 

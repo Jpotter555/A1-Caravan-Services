@@ -24,7 +24,7 @@ export const AnimatedRV: React.FC<AnimatedRVProps> = ({ isAnimating }) => {
       const endPosition = contactSection.getBoundingClientRect().top + window.pageYOffset;
       const distance = endPosition - startPosition;
       let startTime: any = null;
-      const duration = 3750; // Increased to 4 seconds
+      const duration = 3750; 
 
       const animation = (currentTime: number) => {
         if (!startTime) startTime = currentTime;

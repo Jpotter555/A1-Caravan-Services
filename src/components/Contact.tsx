@@ -57,7 +57,7 @@ export const Contact = () => {
                 <h3 className="font-semibold text-lg">Email</h3>
               </div>
               <a 
-                href="mailto:info@a1caravanrepairs.com" 
+                href="mailto:a1customcaravanrepairs@gmail.com" 
                 className="text-gray-600 hover:text-sky-600 transition-colors group"
                 aria-label="Send us an email"
               >

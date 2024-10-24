@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const About = () => (
     <div id="about" className="relative bg-white py-16">
         <div className="absolute inset-0 bg-gray-50 skew-y-3 h-full transform -z-10"></div>

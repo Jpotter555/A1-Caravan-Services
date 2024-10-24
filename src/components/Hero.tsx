@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import AnimatedRV from './AnimatedRV';
 
 export const Hero = () => {
@@ -12,8 +12,6 @@ export const Hero = () => {
     }
 
     setIsAnimating(true);
-    
-    // Don't use scrollIntoView - we're controlling scroll in the RV component
     setTimeout(() => {
       setIsAnimating(false);
     }, 4500); // Slightly longer than animation to ensure completion
@@ -36,7 +34,11 @@ export const Hero = () => {
   };
 
   return (
-    <div className="bg-gradient-to-b from-sky-100 to-white py-20 relative">
+    <section 
+      className="bg-gradient-to-b from-sky-100 to-white py-20 relative"
+      aria-label="Welcome section"
+    >
+    {/* <div className="bg-gradient-to-b from-sky-100 to-white py-20 relative"> */}
       {isAnimating && (
         <svg className="fixed inset-0 w-full h-full pointer-events-none z-40" style={{ opacity: 0.2 }}>
           <path
@@ -56,13 +58,15 @@ export const Hero = () => {
           <button 
             onClick={scrollToContact}
             className="bg-sky-600 text-white px-8 py-3 rounded-lg hover:bg-sky-700 transition-colors"
+            aria-label='Book a repair service'
           >
             Book a Repair
           </button>
         </div>
       </div>
-    </div>
-  );
+    {/* </div> */}
+    </section>
+  )
 };
 
 export default Hero;
