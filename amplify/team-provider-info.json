@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-a1caravanservices-dev-257f1-authRole",
+      "UnauthRoleArn": "arn:aws:iam::682033464603:role/amplify-a1caravanservices-dev-257f1-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::682033464603:role/amplify-a1caravanservices-dev-257f1-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-a1caravanservices-dev-257f1-deployment",
+      "UnauthRoleName": "amplify-a1caravanservices-dev-257f1-unauthRole",
+      "StackName": "amplify-a1caravanservices-dev-257f1",
+      "StackId": "arn:aws:cloudformation:us-east-2:682033464603:stack/amplify-a1caravanservices-dev-257f1/55bd5e40-92e3-11ef-8d16-0a1d8cae48e5",
+      "AmplifyAppId": "dpha4wg6x37fv"
+    }
+  }
+}
