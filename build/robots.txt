@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.a1customcaravanrepairs.com.au//sitemap.xml
